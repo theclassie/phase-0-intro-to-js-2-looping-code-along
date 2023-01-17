@@ -8,23 +8,29 @@
 //}
 //wrapGifts(gifts);
 
-const arrayOfnames = ["Charlie", "Samip", "Ali"];
-function writeCards(arrayOfnames, event) {
-  const message = [];
-  for (let i = 0; i < arrayOfnames.length; i++) {
-    message.push(
-      `Thank you, ${arrayOfnames[i]}, for the wonderful ${event} gift!`
-    );
-  }
-  return message;
-}
+// const arrayOfnames = ["Charlie", "Samip", "Ali"];
+// function writeCards(arrayOfnames, event) {
+//   const message = [];
+//   for (let i = 0; i < arrayOfnames.length; i++) {
+//     message.push(
+//       `Thank you, ${arrayOfnames[i]}, for the wonderful ${event} gift!`
+//     );
+//   }
+//   return message;
+// }
 
-writeCards(["Charlie", "Samip", "Ali"], "birthday");
+// writeCards(["Charlie", "Samip", "Ali"], "birthday");
 
-function countDown() {
-  let countDown = 10;
-  while (countDown > -1) {
-    console.log(countDown--);
-  }
+// function countDown() {
+//   let countDown = 10;
+//   while (countDown > -1) {
+//     console.log(countDown--);
+//   }
+// }
+// countDown(10);
+
+const name = ["Guadalupe", "Ollie", "Aki"]
+
+function writeCards(name){
+  return `Thank you ${name}!`
 }
-countDown(10);
